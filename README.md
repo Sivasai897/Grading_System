@@ -1,0 +1,14 @@
+# Grading_System
+
+## Anent
+The design paper for our use of Java, Java Swing, and SQL to construct a grading system for a university is available here. The reader will get additional knowledge from this paper about the motivations for the development of this application, the key feature choices we made, and the software specifications of our virtual client, to which we were required to follow. Sections 1 through 3 are as follows: a description of the issue that this application is intended to address in its scope, When describing functionality, we must specify the results our programme is anticipated to provide. During the application's design process, we set a number of goals. Here, we explore those goals and the extent to which we were able to achieve them. Object Diagram,where we list our essential classes and justify them using object justification, as well as an abstract UML model of our system.
+
+
+## Scope
+A university professor serves as our fictitious customer. This professor previously used Microsoft Office Excel to monitor the grades of the students enrolled in the courses she is teaching. Even though Excel offers a highly versatile interface for this usage, it is not the most effective method because it is inefficient. Our programme tries to give our customer the ideal grading system they require. Of course, one of our primary goals was to provide just functionality and more efficiently structured structures while removing the least amount of flexibility feasible in order to satisfy the customer (which was the main feature that our client liked in the previous grading system).
+
+## Objective
+Following are a few of the major objectives that were determined during the analytical process and listed in our initial presentation. First and foremost, our customer needs to be able to design a framework for the course that includes tasks (homework, tests, assignments, etc.), and those tasks will include subtasks (homework 1, homework 2, midterm, final etc.). We came to the conclusion that the client must have complete discretion in deciding how many instances of such entities to add or remove. Second, we came to the conclusion that it is quite likely that our client will wish to reuse those structures for courses she will teach in the future that are heavily dependent on courses she has already taught.
+
+We also gave it a high priority since we believed that there should be a means to design reusable course designs. The grades were a further key aspect that we prioritised. A professor must be able to establish a student's grade in a variety of ways (for example, by setting the points taken off, the absolute score earned, the percentage score, etc.) and must be able to view a student's mark in a variety of representations. Our whole design is organised around these fundamental principles, all of which revolve on delivering the most flexibility and usability possible.
+
